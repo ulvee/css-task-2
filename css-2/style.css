@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    height: 100%;
+}
+.temp__header{
+    background-color: #212529;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#temp__header__link{
+    display: inline-block;
+}
+#temp__header__link a{
+    text-decoration: none;
+    color: white;
+}
+#temp__header__links{
+    display: inline;
+    float: right;
+    color: white;
+}
+.temp__header li{
+    display: inline-block;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.temp__main__sec1{
+    width: 100%;
+    height: 70%;
+}
+.backgr__img{
+    background-image: url("/photo/sea.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.overline__photo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.overline__photo{
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 44%;
+    top: 25%;
+}
+.overline__photo h1{
+    padding-bottom: 10px;
+}
+.overline__photo p{
+    color: rgb(181, 181, 181);
+    font-size: 17px;
+}
+.temp__main__sec2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.temp__main__sec2__text{
+    padding-left: 450px;
+    padding-right: 450px;
+}
+#temp__main__sec2__text__p1{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+#temp__main__sec2__text__p2{
+    font-weight: 400;
+}
+.temp__main__sec2__text h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+.temp__main__sec3{
+    width: 100%;
+    height: 52%;
+}
+.backgr__img__2{
+    background-image: url("/photo/moon.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.temp__main__sec4{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.temp__main__sec4__text{
+    padding-left: 450px;
+    padding-right: 450px;
+}
+#temp__main__sec4__text__p1{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+#temp__main__sec4__text__p2{
+    font-weight: 400;
+}
+.temp__main__sec4__text h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+#footer__text{
+    text-align: center;
+    background-color: #212529;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
